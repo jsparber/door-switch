@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/device_header">
+
+        <EditTextPreference
+            app:key="deviceAddress"
+            app:title="@string/device_address_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="devicePort"
+            app:title="@string/device_port_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="deviceKey"
+            app:title="@string/device_key_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
